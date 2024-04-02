@@ -1,22 +1,22 @@
 body{
     padding: 0;
     top: 0;
+    background-color: beige;
 }
 .product{
     float: left;
     margin-left: 150px;
-    width: 33.33333;
    text-align: center;
 }
 .container-percent{
     margin-top: 100px;
     align-items: center;
     width: 100%;
-   display: inline;
+   
 }
 .number-product p{
-    background-color:aqua   ;
-    color: black;
+    background-color:black  ;
+    color: white;
     border-radius: 60%;
     width: 100px;
     height: 80px;
@@ -33,7 +33,7 @@ body{
     margin-top: 50px;
     text-align: center;
     display: inline;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     
 }
@@ -62,9 +62,52 @@ body{
 }
 .container-form button:hover{
     opacity: 0.7;
+    cursor: pointer;
 }
 .send{
     margin-top: 20px;
+}
+.footer-container
+{
+    background-color:aliceblue;
+    display: inline;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    float: right;
+    margin-left: 30px;
+    
+}
+.footer-container h1{
+    float: left;
+    width: 26%; 
+    padding-left: 100px;
+    
+}
+.footer-infomation{
+   width: 25%;
+   
+   margin-top: 70px;
+   margin-left: 100px;
+   float: left;
+}
+.footer-infomation h2{
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.footer-container ul li{
+    font-size: 20px;
+   margin-left: 50px;
+    
+}
+
+.footer-infomation i{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    
 }
 
 
